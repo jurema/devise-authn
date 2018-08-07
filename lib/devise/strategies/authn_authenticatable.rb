@@ -3,9 +3,6 @@ require 'devise'
 module Devise
   module Strategies
     class AuthNAuthenticatable < Base
-      def store?
-        false
-      end
 
       def valid?
         true
